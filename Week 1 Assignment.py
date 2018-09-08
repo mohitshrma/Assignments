@@ -63,6 +63,29 @@ output: 'tHIS IS Me 123']
 
     #end 
     
-    
-    
+#Q.5 Write a class in which its one method accepts a string from console and another method to print the characters that have odd indexes.
+    Example: If the following string is given as input to the program:
 
+    Hello123
+
+    Then, the output of the program should be:
+
+    el13
+
+    #Solution
+    class Hello:
+    def __init__(self):
+        self.word= "" 
+        
+    def input_value(self):
+        self.word = input("Input String:")
+        
+    def output_value(self):
+        result=self.word[1::2]
+        print(result)
+        
+        #end
+     [Hell=Hello()
+    Hell.input_value()
+    Hell.output_value()
+    el13]
