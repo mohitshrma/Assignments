@@ -1,0 +1,2 @@
+# Assignments
+Python weekly material
